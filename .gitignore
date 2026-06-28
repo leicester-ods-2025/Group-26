@@ -1,0 +1,18 @@
+# Dataset files - do not commit
+data/*.csv
+data/*.wav
+data/mic1_trim_v1/
+data/Labels/
+*.wav
+feature_matrix.csv
+train_pids.csv
+test_pids.csv
+merged_metadata_clean.csv
+
+# Models
+models/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
